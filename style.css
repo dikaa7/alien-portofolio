@@ -189,3 +189,9 @@ div{
 	width: 40px;
 	padding: 5px;
 }
+
+.git-corner{
+	position: absolute;
+	top: 0;
+	right: 0;
+}
