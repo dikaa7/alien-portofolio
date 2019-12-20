@@ -124,15 +124,6 @@ div{
 	right: -200px;
 }
 
-.alien{
-	width: 150px;
-	transform: rotate(-70deg);
-	position: absolute;
-	right: 320px;
-	bottom: 100px;
-
-}
-
 .profile-description{
 	font-size: 2rem;
 	margin-bottom: 80px;
