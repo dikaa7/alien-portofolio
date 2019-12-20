@@ -1,10 +1,21 @@
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
 body{
+	-ms-overflow-style: none;  /* Internet Explorer 10+ */
+	scrollbar-width: none;  /* Firefox */ 
 	margin: 0px;
+	font-size: 18px;
 	background-image: url(images/PixelArt.png);
 	text-align: center;
-	overflow-x: hidden;
 	color: #fff;
 	font-family: 'Source Sans Pro', sans-serif;
+}
+
+body::-webkit-scrollbar { 
+    display: none;  /* Safari and Chrome */
 }
 
 h1, h2{
@@ -25,6 +36,7 @@ h1{
 }
 
 h2{
+	margin-top: 80px;
 	font-size: 2rem;
 }
 
@@ -42,7 +54,7 @@ hr {
 	margin: 100px auto;
 	border: dotted 8px;
 	border-bottom: none;
-	border-color: #fff;
+	border-color: #111;
 }
 
 div{
@@ -51,6 +63,10 @@ div{
 
 .branding{
 	width: 100%;
+}
+
+.photo-profile {
+	width: 200px;
 }
 
 .blackhole{
